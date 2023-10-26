@@ -1,0 +1,41 @@
+#middle-heading {
+  color: darkolivegreen;
+}
+
+h3 {
+  text-decoration: underline;
+}
+h1,
+h2 {
+  text-transform: capitalize;
+  color: green;
+}
+
+p {
+  font-style: italic;
+}
+
+body {
+  padding: 10px 30px;
+  color: white;
+}
+h1 {
+  color: red;
+}
+.odd {
+  background-color: blue;
+}
+
+h3 {
+  background-color: greenyellow;
+}
+
+/* Discus the terms cascading, inheritance and specifity as used with CSS. use code examples. */
+
+/* types of selector -- element name, class, id,  
+
+    selector {
+        property: value;
+        property: value;
+    }
+*/

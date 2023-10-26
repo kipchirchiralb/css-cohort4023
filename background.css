@@ -1,0 +1,16 @@
+body {
+  background-color: aquamarine;
+}
+
+input {
+  display: block;
+  width: 70%;
+  margin: 30px;
+}
+
+form {
+  background-image: url("./pexels-chiper-catalin-2887131.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}

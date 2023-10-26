@@ -1,0 +1,32 @@
+#chat-link {
+  position: sticky;
+  top: 100px;
+  /* left,top,bottom and right */
+  background-color: rgb(57, 192, 57);
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.card {
+  border: 3px dotted;
+  height: 200px;
+  position: relative;
+  width: 60%;
+}
+
+#logo {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+
+  background-color: rgb(25, 0, 248);
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 8px;
+  border-radius: 5px;
+}

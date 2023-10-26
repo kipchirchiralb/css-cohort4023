@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Intro to css</title>
+    <link rel="stylesheet" href="another.css" />
+    <style>
+      a {
+        color: brown;
+        font-size: 20px;
+      }
+      body {
+        background-color: bisque;
+      }
+      h3 {
+        background-color: brown;
+      }
+    </style>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <header>
+      <a href="./index.html">Logo </a>
+      <nav>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h1 style=""> Welcome to our page</h1>
+        <p>This is a sample web page where we are learning css</p>
+      </section>
+      <section>
+        <h2>What is Syntax</h2>
+        <p>
+          Syntax refers to the set of rules that define the combinations of
+          symbols considered to be correctly structured in a particular
+          programming or scripting language, or more broadly, any formal
+          language. It dictates how statements and expressions <em>must</em> be
+          written so that they can be correctly executed or processed.
+        </p>
+      </section>
+      <section>
+        <h2 id="middle-heading">What is CSS</h2>
+        <p id="first-para">
+          CSS stands for Cascading Style Sheets and is used to style and layout
+          web content(html elements). The <b>syntax</b> of CSS is relatively
+          straightforward and consists of selectors, properties, and values.
+          <br />Here's a basic breakdown of the CSS syntax:
+        </p>
+        <ol>
+          <li>
+            <h3>Selector</h3>
+            <p>
+              This determines which HTML elements the style will be applied to.
+            </p>
+          </li>
+          <li>
+            <h3>Property</h3>
+            <p>
+              This indicates the type of style attribute you wish to change
+              (e.g., color, font-size, width).
+            </p>
+          </li>
+          <li>
+            <h3>Value</h3>
+            <p>
+              This is the actual style value you wish to set for that property.
+            </p>
+          </li>
+        </ol>
+        <h2>Example</h2>
+        <pre>
+                <code>
+                    header {
+                        text-align: center;
+                        padding: 50px 0;
+                    }            
+                </code>
+            </pre>
+      </section>
+      <section>
+        <h2>Where we write our CSS</h2>
+        <ul>
+          <li>
+            <h3 style="color: green" class="odd">Inline CSS</h3>
+            <p>
+              Writing CSS directly within the HTML element using the style
+              attribute.
+            </p>
+          </li>
+          <li>
+            <h3>Internal (or Embedded) CSS</h3>
+            <p>
+              Writing css Within the head section of the HTML file using the
+              style tag.
+            </p>
+          </li>
+          <li>
+            <h3 class="odd">External CSS</h3>
+            <p>
+              By linking to an external .css file. This is the most common
+              method for larger websites as it promotes separation of content
+              (HTML) and design/styling (CSS).
+            </p>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer>
+      <p class="odd">&copy; Web Dev Cohort 4 - 2023</p>
+    </footer>
+  </body>
+</html>

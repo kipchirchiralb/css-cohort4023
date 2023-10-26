@@ -1,0 +1,52 @@
+ul {
+  border: 2px solid red;
+  padding: 0px;
+
+  display: flex; /*makes the ul a flex container and its direct children(not ancestors) flex items*/
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: end;
+  height: 100vh;
+}
+
+li {
+  list-style-type: none;
+  border: 2px solid green;
+  margin: 5px;
+  width: 250px;
+  height: max-content;
+}
+
+#not-flex {
+  width: 250px;
+  border: 2px solid black;
+}
+
+header {
+  display: flex;
+  background-color: lightblue;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* diff btw main axis and cross axis in flex */
+/* CSS grid */
+
+/* resposivee design with media queries */
+
+@media (max-width: 400px) {
+  /* these style will only aapply to screen/viewport with width not more than 400px */
+  body {
+    background-color: yellowgreen;
+  }
+  li {
+    font-style: italic;
+  }
+}
+@media (min-width: 750px) {
+  body {
+    background-color: lightcoral;
+  }
+}
+
+/* the numbers that are used in the media queries are called breaking points */

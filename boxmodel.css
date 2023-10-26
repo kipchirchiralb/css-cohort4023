@@ -1,0 +1,20 @@
+* {
+  border: 2px solid red;
+  margin: 20px;
+}
+p {
+  background-color: aquamarine;
+  padding: 20px;
+  width: 250px;
+}
+
+#p-one {
+  box-sizing: content-box; /*content-bx is the default behavior for box sizing */
+}
+#p-two {
+  box-sizing: border-box;
+}
+
+/* other types of selectors ( tag/element name selector, id selector and class selector ) */
+
+/* combining selectors & pseudo selectors */

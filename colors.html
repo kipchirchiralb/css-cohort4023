@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Colors</title>
+    <style>
+      body {
+        background-image: url("./pexels-chiper-catalin-2887131.jpg");
+        background-size: cover;
+      }
+      p {
+        background-color: hsla(300, 100%, 50%, 0.302);
+        height: 200px;
+        width: 50%;
+      }
+      ul {
+        background-color: rgb(17, 104, 30);
+        width: 900px;
+      }
+      li {
+        width: 30%; /*270px*/
+        font-size: 10px;
+        word-spacing: 1.2em;
+        height: 100vh;
+      }
+      html {
+        font-size: 10px;
+      }
+      h1 {
+        background-color: cadetblue;
+        padding: 2rem;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>CSS Colors</h1>
+    <p>In css colors can be presented by names, RGB, RGBA, HEX and HSL</p>
+
+    <h1>Relative units</h1>
+    <p>
+      These are ways of representing sizes/pixels in relation to existing values
+    </p>
+    <p>They include: %(percentage), em, rem, vw and vh</p>
+
+    <ul>
+      <li>
+        %(percent) - This size is relative to the parent element e.g. If you set
+        an element's width to 50%, it will occupy half of its parent container's
+        width.
+      </li>
+      <li>
+        em - This is relative to the font size of the element. For example, if
+        an element has a font size of 16px, then 1em is equal to 16px for that
+        element. 2em would be 32px, and so on.
+      </li>
+      <li>
+        rem (root em) - Relative to the font size of the root element (html). If
+        the root element's font size is 20px, then 1rem equals 20px across the
+        entire document.
+      </li>
+      <li>
+        vw stands for "viewport width", and vh stands for "viewport height".10vw
+        is equal to 10% of the viewport's width, and 50vh is equal to 50% of the
+        viewport's height.
+      </li>
+    </ul>
+  </body>
+</html>
